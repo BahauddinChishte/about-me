@@ -10,6 +10,7 @@ color: coral;
 }
 section{
     display: flex;
+    margin-bottom: 120px;
 }
 .half-width{
     width: 50%;
@@ -30,4 +31,17 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+.dream-big{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.p-add{
+    padding-right: 15%;
+    text-align:justify;
+}
+.p-addd{
+    padding-right: 10%;
+    text-align:justify; 
 }
