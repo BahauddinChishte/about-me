@@ -20,8 +20,7 @@ color: coral;
     padding-left: 6%;
     
 }
-.half-width img{
-    width: 90%;
+
 }
 .link-button{
     text-decoration: none;
@@ -75,4 +74,10 @@ padding: 3%;
 }
 footer p{
     text-align:center;
+}
+.img1{
+    width: 100%;
+}
+.img2{
+    width: 90%;
 }
