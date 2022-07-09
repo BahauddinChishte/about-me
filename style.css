@@ -2,6 +2,48 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
+
+.menu-bar{
+    position: sticky; top: 0;
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-right: 0%;
+    padding-left: 0%;
+    
+
+}
+.logo{
+    color:  var(--color-white);
+    font-size: 30px;
+    padding-left: 2%;
+}
+.logo span{
+    color: #FF5959;
+}
+.menu-bar ul{
+list-style: none ;
+display: flex;
+
+
+}
+.menu-bar ul li{
+   padding: 10px 30px  ; 
+}
+.menu-bar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+.menu-bar ul li a:hover{
+    color:#FF5959 ;
+}
 h1{
     font-size: 51px;
 }
@@ -33,6 +75,7 @@ color: coral;
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    
 
 }
 .dream-big{
@@ -81,3 +124,4 @@ footer p{
 .img2{
     width: 90%;
 }
+
